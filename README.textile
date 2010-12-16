@@ -1,9 +1,9 @@
 h1. My personal vim config
 
-<code><pre>
+<pre>
 cd ~
 mv .vim .vim.old
 mv .vimrc .vimrc.old
 git clone git://github.com/jkac/vimfiles.git .vim
 ln -s .vim/vimrc .vimrc
-</pre></code>
+</pre>

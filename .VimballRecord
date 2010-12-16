@@ -1,0 +1,2 @@
+tail-3.0.vba: call delete('/home/jeffrey/.vim/tail_options.vim')|call delete('/home/jeffrey/.vim/autoload/tail.vim')|call delete('/home/jeffrey/.vim/doc/tail.txt')|call delete('/home/jeffrey/.vim/macros/vim-tail.zsh')|call delete('/home/jeffrey/.vim/plugin/tail.vim')
+conque_1.2.vba: call delete('/home/jeffrey/.vim/autoload/conque_term.vim')|call delete('/home/jeffrey/.vim/doc/conque_term.txt')|call delete('/home/jeffrey/.vim/plugin/conque_term.vim')|call delete('/home/jeffrey/.vim/syntax/conque_term.vim')

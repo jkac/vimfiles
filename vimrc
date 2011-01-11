@@ -17,7 +17,7 @@ command NodeRestart :!sudo /sbin/restart node
 command Prod :TabTail /var/log/apache2/www.error_log
 command Dev :TabTail /var/log/apache2/dev.error_log
 command Webdev :TabTail /var/log/apache2/webdev.error_log
-command Error :TabTail /var/log/apache2/error_log
+command Error :TabTail /var/log/apache2/error.log
 
 " mysql tab
 command Mysql :ConqueTermTab mysql -u root -p

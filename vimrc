@@ -22,3 +22,8 @@ command Error :TabTail /var/log/apache2/error.log
 " mysql tab
 command Mysql :ConqueTermTab mysql -u root -p
 
+" highlight bad whitespace
+highlight ExtraWhitespace ctermbg=darkgray guibg=darkgray
+match ExtraWhitespace /\s\+$\| \+\ze\t/
+
+

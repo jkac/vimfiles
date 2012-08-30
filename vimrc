@@ -18,6 +18,7 @@ command Prod :TabTail /var/log/apache2/www.error_log
 command Dev :TabTail /var/log/apache2/dev.error_log
 command Webdev :TabTail /var/log/apache2/webdev.error_log
 command Error :TabTail /var/log/apache2/error.log
+command Media :TabTail /var/log/apache2/media.error.log
 
 " mysql tab
 command Mysql :ConqueTermTab mysql -u root -p
@@ -25,5 +26,8 @@ command Mysql :ConqueTermTab mysql -u root -p
 " highlight bad whitespace
 highlight ExtraWhitespace ctermbg=darkgray guibg=darkgray
 match ExtraWhitespace /\s\+$\| \+\ze\t/
+
+" not a default on some vim installs...
+set autoindent
 
 

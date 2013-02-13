@@ -3,11 +3,11 @@ function! RedirM2Output()
 
   let filename= expand('%:p')
 
-  if( match( filename, "-output" ) != -1)
+  if (match( filename, "-output" ) != -1)
     return
   endif
 
-  if( match( filename, "m2" == -1)
+  if (match( filename, "m2" == -1)
     return
   endif
 
@@ -20,7 +20,7 @@ function! RedirM2Output()
     exec "%d"
   endif
 
-  exec 'select r !M2 --script '.filename
+  exec 'silent r !M2 --script '.filename
   set nomodified
 endfunc
 

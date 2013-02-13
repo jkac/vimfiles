@@ -1,4 +1,3 @@
-
 function! RedirM2Output()
 
   let filename= expand('%:p')
@@ -7,7 +6,7 @@ function! RedirM2Output()
     return
   endif
 
-  if (match( filename, "m2" == -1)
+  if (match( filename, "m2" ) == -1)
     return
   endif
 

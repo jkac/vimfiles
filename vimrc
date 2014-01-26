@@ -32,7 +32,7 @@ command Mysql :ConqueTermTab mysql -u root -p
 " highlight bad whitespace
 "highlight ExtraWhitespace ctermbg=darkgray guibg=darkgray
 "match ExtraWhitespace /\s\+$\| \+\ze\t/
-exec "set listchars=tab:\uBB\uB7,nbsp:~,trail:\uB7"
+exec "set listchars=trail:\uB7"
 set list
 
 " turn on autoindent, incremental search, and search highlighting
